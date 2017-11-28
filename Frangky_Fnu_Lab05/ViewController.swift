@@ -105,6 +105,7 @@ class ViewController: UIViewController {
                 holdButton.isEnabled = false
                 continueButton.isEnabled = true
                 playerOrder += 1
+                p1Score = p1Score - dummyscore
                 dummyscore = 0
                 holdButton.isEnabled = false
                 player1score.text = String(p1Score)
@@ -138,6 +139,7 @@ class ViewController: UIViewController {
                 holdButton.isEnabled = false
                 continueButton.isEnabled = true
                 playerOrder += 1
+                p2Score = p2Score - dummyscore
                 dummyscore = 0
                 holdButton.isEnabled = false
                 player2score.text = String(p2Score)
