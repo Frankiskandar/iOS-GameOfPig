@@ -12,6 +12,12 @@
 		012338561FCA577F00625D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012338541FCA577F00625D0D /* Main.storyboard */; };
 		012338581FCA577F00625D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012338571FCA577F00625D0D /* Assets.xcassets */; };
 		0123385B1FCA577F00625D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 012338591FCA577F00625D0D /* LaunchScreen.storyboard */; };
+		0123386B1FCDE7C700625D0D /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 012338651FCDE7C600625D0D /* 6.png */; };
+		0123386C1FCDE7C700625D0D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 012338661FCDE7C600625D0D /* 3.png */; };
+		0123386D1FCDE7C700625D0D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 012338671FCDE7C600625D0D /* 2.png */; };
+		0123386E1FCDE7C700625D0D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 012338681FCDE7C700625D0D /* 1.png */; };
+		0123386F1FCDE7C700625D0D /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 012338691FCDE7C700625D0D /* 4.png */; };
+		012338701FCDE7C700625D0D /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0123386A1FCDE7C700625D0D /* 5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		012338571FCA577F00625D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0123385A1FCA577F00625D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0123385C1FCA577F00625D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012338651FCDE7C600625D0D /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		012338661FCDE7C600625D0D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		012338671FCDE7C600625D0D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		012338681FCDE7C700625D0D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		012338691FCDE7C700625D0D /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		0123386A1FCDE7C700625D0D /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,7 @@
 		012338441FCA577F00625D0D = {
 			isa = PBXGroup;
 			children = (
+				012338621FCDE74F00625D0D /* Images */,
 				0123384F1FCA577F00625D0D /* Frangky_Fnu_Lab05 */,
 				0123384E1FCA577F00625D0D /* Products */,
 			);
@@ -62,6 +75,19 @@
 				0123385C1FCA577F00625D0D /* Info.plist */,
 			);
 			path = Frangky_Fnu_Lab05;
+			sourceTree = "<group>";
+		};
+		012338621FCDE74F00625D0D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				012338681FCDE7C700625D0D /* 1.png */,
+				012338671FCDE7C600625D0D /* 2.png */,
+				012338661FCDE7C600625D0D /* 3.png */,
+				012338691FCDE7C700625D0D /* 4.png */,
+				0123386A1FCDE7C700625D0D /* 5.png */,
+				012338651FCDE7C600625D0D /* 6.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +149,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0123386D1FCDE7C700625D0D /* 2.png in Resources */,
+				0123386C1FCDE7C700625D0D /* 3.png in Resources */,
 				0123385B1FCA577F00625D0D /* LaunchScreen.storyboard in Resources */,
 				012338581FCA577F00625D0D /* Assets.xcassets in Resources */,
+				0123386F1FCDE7C700625D0D /* 4.png in Resources */,
+				0123386B1FCDE7C700625D0D /* 6.png in Resources */,
+				012338701FCDE7C700625D0D /* 5.png in Resources */,
 				012338561FCA577F00625D0D /* Main.storyboard in Resources */,
+				0123386E1FCDE7C700625D0D /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
