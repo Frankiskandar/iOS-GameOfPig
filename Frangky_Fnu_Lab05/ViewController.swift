@@ -132,6 +132,7 @@ class ViewController: UIViewController {
         } else {
             var dice = Int(arc4random_uniform(6) + 1)
             print("player 2 Roll is pressed")
+            diceImage.image = UIImage(named: "\(dice).png")
             // if player 2 rolls 1
             if dice == 1 {
                 gameStatus.text = "Player 2 rolled 1. Now player 1's turn"
